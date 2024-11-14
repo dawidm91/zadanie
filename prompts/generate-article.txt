@@ -1,0 +1,5 @@
+Use the generated-files/load-file.py script to load the file content from article.txt.
+The first argument to script is the filename.
+Next, fix the polish characters in the content and add simple HTML markup like headings and paragraphs.
+Under the first heading insert a <img /> tag with attribute src with value "image_placeholder.jpg" and in
+attribute alt put a prompt for generating an image related to the article itself.

@@ -1,0 +1,3 @@
+Generate a Python script that will run a HTTP server and host a generated file.
+It should load files szablon.html and article.html (each one only once, use UTF-8 encoding) and put content of article.html in shablon.html, inside <body> tag.
+Use regular expression to find body tag in shablon.html.

@@ -1,0 +1,10 @@
+Generate Python script with the following parts:
+1. Create a variable prompt_end with text: ' . Output the content without comments and additional information. Output only plain text - do not wrap the code with "```".'
+2. Create a variable api_key and assign a key loaded from file "secrets.txt"
+3. Load file content from prompts/generate-article.txt to prompt_text
+4. Load file content from data/article.txt to a variable article_text
+4. Add this line: client = OpenAI(api_key=api_key)
+5. Call the api by giving the message prompt_text + prompt_end + "Here is the additional data: \n" + data
+6. Save the response to generated-files/article.html
+Add neccessary imports at the beginning.
+Output only code.

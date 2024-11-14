@@ -1,0 +1,10 @@
+Generate Python script with the following parts:
+1. Create a variable with text: ' . Output the content without comments and additional information. Output only plain text - do not wrap the code with "```".'
+2. Create a variable api_key and assign a key loaded from file "secrets.txt"
+3. Add this line: client = OpenAI(api_key=api_key)
+4. Define a function read_file with argument "path" that will load a file
+5. Define a function write_file with arguments "path" and "content" that will write a file with encoding UTF-8
+6. TODO
+7. TODO
+Add neccessary imports at the beginning.
+Output only code.

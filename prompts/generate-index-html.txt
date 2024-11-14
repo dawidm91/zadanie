@@ -1,0 +1,9 @@
+Generate a HTML template with empty body, without comments. Page title should be "Zadanie".
+Add the following styles to the head section:
+- add 30px of padding to the body
+- limit the width of the body to 900px
+- center the body on the Page by setting the horizontal margin to auto
+- Give the body a light gray background
+- set the font to Noto Sans from Google CDN
+- justify the text
+- limit the width of images to 100% of the body

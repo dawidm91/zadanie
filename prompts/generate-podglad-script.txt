@@ -1,0 +1,5 @@
+Generate a Python script that will:
+- load file content from szablon.html into variable "szablon"
+- load file content from article.html into variable "article"
+- find the <body></body> tag in the content of "szablon" and put the content "article" inside
+- save the file to podglad.html
